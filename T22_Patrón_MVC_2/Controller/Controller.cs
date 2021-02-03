@@ -45,7 +45,6 @@ namespace T22_Patrón_MVC_2.Controller
         private void verRegistros_Click(object sender, EventArgs e, string DB, string tabla, DB_Manager dB_Manager)
         {
             // botón para ver registros especificos           
-            MessageBox.Show("1");
             switch (tabla)
             {
                 case "cliente":
